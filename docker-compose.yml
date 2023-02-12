@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  pythonhttpxasynciodockerexample:
+    image: pythonhttpxasynciodockerexample
+    build:
+      context: .
+      dockerfile: ./Dockerfile
